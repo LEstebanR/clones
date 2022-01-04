@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+:root{
+  --background-black: rgba(0, 0, 0, 0.7);
+  --color-font-white: #fff;
+  --sm: 1.2rem;
+  --md: 1.6rem;
+  --lg: 2rem;
+}
+
+.navBar{
+  width: 100%;
+  background-color: var(--background-black);
+  color: var(--color-font-white);
+  height: 2.8rem;
+  display: flex;
+}
+
+.navBar h1{
+  width: 90%;
+  font-size: var(--lg);
+  text-align: center;
+}
+
+.navBar ul{
+  width: 10%;
+}
+
+.navBar ul li{
+  list-style: none;
+  font-size: var(--md);
+}
+
+.navBar .navBar-link{
+  color: var(--color-font-white);
+  text-decoration: none;
+  text-align: center;
+  padding: auto;
+}
+
+.warning{
+  font-size: var(--lg);
+}
