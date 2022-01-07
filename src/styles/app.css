@@ -16,6 +16,16 @@ html{
   --lg: 2rem;
 }
 
+.home{
+  width: 100vw;
+  height: 100vh;
+  background: url(https://res.cloudinary.com/lesteban/image/upload/v1641587536/clones/yuriy-kovalev-nN1HSDtKdlw-unsplash_wgte7h.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navBar{
   width: 100%;
   background-color: var(--background-black);
@@ -48,4 +58,60 @@ html{
 
 .warning{
   font-size: var(--lg);
+  width: 50%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.card{
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+.card a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card:hover{
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 150px solid black;
+}
+
+.card img{
+  width: 75%;
+  padding: 5px;
+  object-fit: cover;
+}
+
+.card h3{
+  height: 10%;
+  color: black;
+  font-size: var(--lg);
+}
+
+.card p{
+  height: 40%;
+  font-size: var(--md);
+  color: black;
+  padding: 5px;
+}
+
+.projects{
+  width: 100%;
+  margin: 50px;
+  height: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
