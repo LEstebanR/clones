@@ -30,7 +30,7 @@ html{
   width: 100%;
   background-color: var(--background-black);
   color: var(--color-font-white);
-  height: 2.8rem;
+  height: 3vh;
   display: flex;
 }
 

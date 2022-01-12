@@ -10,3 +10,59 @@
   height: 100vh;
   background-color: rebeccapurple;
 }
+
+.desktop {
+  width: 100vw;
+  height: 92vh;
+  background: url(https://res.cloudinary.com/lesteban/image/upload/v1642021921/clones/xp/9728-windows-xp_gfxdjr.jpg) no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+footer{
+  height: 5vh;
+  display: flex;
+  background-color: #2162e0;
+}
+
+footer button {
+width: 10vw;
+}
+
+footer .shortcut{
+  width: 10vw;
+}
+
+footer .space{
+  width: 50vw;
+}
+
+footer .language{
+  width: 5vw;
+}
+
+footer .icons{
+  width: 20vw;
+}
+
+footer .time{
+  width: 5vw;
+}
+
+.start{
+  background-color: #57761C;
+  display: flex;
+  justify-content: center;
+}
+
+.start-logo{
+  height: 4vh;
+}
+
+.start-text{
+  font-size: 3vh;  
+
+}
+
